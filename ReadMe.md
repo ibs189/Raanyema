@@ -5,7 +5,7 @@ Raanyema is full flegde deep learning-based image classifier
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirement files
 
 ```bash
-pip install requirement.txt
+pip install requirements.txt
 ```
 
 ## usage 
@@ -13,13 +13,13 @@ pip install requirement.txt
 run:
 python server.py
 use:
-`test_model.py`: to send a sample image to get a classification
+test_model.py: to send a sample image to get a classification
 ```
 
 ## For Reproduction purposes
 ``` python
 run:
-`deka-multiclassifier.ipynb`
+deka-multiclassifier.ipynb
 
 Structure your training data images as such
 training_data/
