@@ -1,6 +1,6 @@
 # Raanyema
-Raanyema is full flegde deep learning-based image classifier
-
+Raanyema is full flegde deep learning-based image classifier. It could classifier images of bathrooms, bedrooms, kitchen, living-room, and frontal view of houses
+The aim is to automate the processes of image verification, listing amenity verification and classification, etc.
 ## Running locally
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirement files
 
@@ -10,15 +10,12 @@ pip install requirements.txt
 
 ## usage 
 ```bash 
-run:
-python server.py
-use:
-test_model.py: to send a sample image to get a classification
+python server.py: runs a web server to recieve a sample image and returns a prediction/class of the image
+test_model.py: Programmatically test server.py 
 ```
 
-## For Reproduction purposes
+## For Reproduction Purposes
 ``` python
-run:
 deka-multiclassifier.ipynb
 
 Structure your training data images as such
